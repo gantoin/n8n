@@ -1,0 +1,11 @@
+---
+application:
+  name: "n8n"
+  project: "n8n-test"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-n8n"
+  routes:
+  - application_name: "n8n"
+    paths:
+    - "/*"
